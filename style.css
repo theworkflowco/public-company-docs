@@ -1,0 +1,14 @@
+/* Reset all sidebar items to normal weight first */
+#sidebar, #sidebar * {
+  font-weight: 400;
+}
+
+/* Make only navigation group headings bold */
+h5#sidebar-title {
+  font-weight: 700;
+}
+
+/* Ensure page links stay at regular weight */
+#sidebar a {
+  font-weight: 400;
+}
